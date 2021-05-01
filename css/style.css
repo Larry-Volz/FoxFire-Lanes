@@ -1360,3 +1360,9 @@ h4 {
 .dark {
 	color: black !important;
 }
+
+.party-banner {
+		background: url('../images/party_banner.jpg') no-repeat center top;
+		background-size: cover;
+		color: #fff;
+}

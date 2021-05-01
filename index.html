@@ -26,7 +26,12 @@
       </div>
       <div class="navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
+          
           <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#leagues">Leagues & Tournaments</a></li>
+          <li><a href="#pricing">Open Play Pricing</a></li>
+          <li><a href="#parties">Parties & Groups</a></li>
+          
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
             <ul class="dropdown-menu">
               <li><a href="index_fixed.html">Home / Fixed</a></li>
@@ -40,9 +45,7 @@
               <li><a href="faq.html">FAQ</a></li>
             </ul>
           </li>
-          <li><a href="left_sidebar.html">left sidebar</a></li>
-          <li><a href="right_sidebar.html">right sidebar</a></li>
-          <li><a href="full_width.html">full page</a></li>
+          
           <li><a href="contact.html">contact us</a></li>
         </ul>
       </div>
@@ -89,7 +92,7 @@
   </div> -->
   <div class="row icons__blocks three__blocks text-center">
     <div class="container">
-      <h1 class="page_title" style="color:white;"><span>Leagues and Tournments</span></h1>
+      <h1 id = "leagues" class="page_title" style="color:white;"><span>Leagues and Tournments</span></h1>
       <div class="col-md-4">
         <h3><a href="#">Join a League</a></h3>
         <!-- <p class="smaller"><small>Vestibulum auctor dapibus neque.</small></p> -->
@@ -121,7 +124,7 @@
   </div>
   <div class="row no-margin grey-info-block text-center">
     <div class="container">
-      <h2><span>Open Play Pricing</span></h2>
+      <h2 id = "pricing"><span>Open Play Pricing</span></h2>
       <!-- <p class="small-paragraph">Integer vitae libero ac risus egestas placerat.</p> -->
       <div class="col-md-6">
         <h3>Prices</h3>
@@ -138,50 +141,106 @@
     </div>
   </div>
 </section>
-<div class="row no-margin no_padding grey-info-block text-center"> </div>
+<!-- <div class="row no-margin no_padding grey-info-block text-center"> </div> -->
+
+<div class="party-banner">
+  <div class="container">
+    <div class="row"> 
+      <h2 class="text-center " style="color:white;">Parties and Groups</h2>
+    </div>
+    <!-- <img src="images/party_banner.jpg"></img> -->
+  </div>
+</div>
+<div class="row no-margin grey-info-block text-center">
+  <div class="container">
+      <div class="col-md-4">
+        <h3><a href="#">Parties! Any age, any excuse!</a></h3>
+        <p class="dark">Bowling! Pizza! Fun!</p>
+        <img src="images/content__images/gum.jpg" alt="image" class="img-responsive img-rounded">
+      </div>
+      <div class="col-md-4 middle">
+        <h3><a href="#">Group Bowling</a></h3>
+        <p class="dark">2 or 3 hour bookings </p>
+        <br>
+        <img src="images/content__images/duo.jpg" alt="image" class="img-responsive img-rounded">
+      </div>
+      <div class="col-md-4">
+        <h3><a href="#">Corporate Events and After Hours Lock-ins</a></h3>
+        <p class="dark">Have your company or organization's event YOUR way!</p>
+        <img src="images/content__images/high_fives.jpg" alt="image" class="img-responsive img-rounded">
+      </div>
+    </div>
+</div>
+
+
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
-        <h3>About</h3>
-        <p>We strive to deliver a level of service that exceeds the expectations of our customers. <br />
-          <br />
-          If you have any questions about our products or services, please do not hesitate to contact us. We have friendly, knowledgeable representatives available seven days a week to assist you.</p>
+  <div class="col-md-3">
+          <h3>Come on Out!</h3>
+          <p>225 Security Street<br />
+            Kannapolis, NC, USA<br />
+            <br />
+          </p>
+  </div>
+  <div class="col-md-3">
+            <h3>Get in Touch</h3>
+            Phone: <a href="tel:7049320146"></a>704-932-0146<br />
+            Email: <a href="mail:foxfirelanes@gmail.com"> foxfirelanes@gmail.com</a>
+            <br />
+          </p>
+          <div class="social__icons"> 
+            <a href="https://www.facebook.com/FoxfireBowlingLanes" class="socialicon socialicon-facebook"></a> 
+            <!-- <a href="#" class="socialicon socialicon-twitter"></a>  -->
+            <!-- <a href="#" class="socialicon socialicon-google"></a>  -->
+            <a href="foxfirelanes@gmail.com" class="socialicon socialicon-mail"></a> 
+          </div>
+        </div>
+
+      <div class="col-md-5">
+        <h3>Hours</h3>
+        <div class="col-sm-4">Sunday:</div>
+        <div class="col-sm-8">1pm-10pm (5:30-8:30 limited lanes due to league)</div>
+        <div class="col-sm-4">Monday:</div>
+        <div class="col-sm-8">1pm-10pm (6-9:30 limited lanes due to league)</div>
+        <div class="col-sm-4">Tuesday:</div>
+        <div class="col-sm-8">9am-10pm (9am-noon Seniors only)</div>
+        <div class="col-sm-4">Wednesday:</div>
+        <div class="col-sm-8">11am-11pm</div>
+        <div class="col-sm-4">Thursday:</div>
+        <div class="col-sm-8">1pm-10pm ( 6-9pm very limited lanes due to league)</div>
+        <div class="col-sm-4">Friday: </div>
+        <div class="col-sm-8">11am- midnight</div>
+        <div class="col-sm-4">Saturday:</div>
+        <div class="col-sm-8">9am- midnight (9am-noon limited lanes due to Youth League)</div>
       </div>
-      <div class="col-md-3">
+
+      <!-- <div class="col-md-3">
         <h3>Tweets</h3>
         <p><span>Tweet</span> <a href="#">@You</a><br />
           Etiam egestas, ipsum posuere accumsan sollicitudin, nulla mauris volutpat sem, sit amet rutrum risus. </p>
         <p><span>Tweet</span> <a href="#">@You</a><br />
           Quisque porta tellus vitae adipiscing molestie. Mauris et lacus blandit, malesuada.</p>
-      </div>
-      <div class="col-md-3">
+      </div> -->
+
+      <!-- <div class="col-md-3">
         <h3>Mailing list</h3>
         <p>Subscribe to our mailing list for offers, news updates and more!</p>
         <br />
         <form action="#" method="post" class="form-inline" role="form">
+
           <div class="form-group">
             <label class="sr-only" for="exampleInputEmail2">your email:</label>
             <input type="email" class="form-control form-control-lg" id="exampleInputEmail2" placeholder="your email:">
           </div>
           <button type="submit" class="btn btn-primary btn-md">subscribe</button>
         </form>
-      </div>
-      <div class="col-md-3">
-        <h3>Social</h3>
-        <p>123 Business Way<br />
-          San Francisco, CA 94108<br />
-          USA<br />
-          <br />
-          Phone: (888) 123-4567<br />
-          Fax: (887) 123-4567<br />
-          <br />
-        </p>
-        <div class="social__icons"> <a href="#" class="socialicon socialicon-twitter"></a> <a href="#" class="socialicon socialicon-facebook"></a> <a href="#" class="socialicon socialicon-google"></a> <a href="#" class="socialicon socialicon-mail"></a> </div>
-      </div>
+      </div> -->
+     
+
     </div>
     <hr>
-    <p class="text-center">&copy; Copyright ABC Company. All Rights Reserved.</p>
+    <p class="text-center">Like the site and looking for a great full-stack web developer?  Get in touch! <a href="https://www.larry-volz.com">Larry-Volz.com</a></p>
   </div>
 </footer>
 
