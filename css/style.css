@@ -1356,3 +1356,7 @@ h4 {
 	padding: 0;
 	width: 100%
 }
+
+.dark {
+	color: black !important;
+}
