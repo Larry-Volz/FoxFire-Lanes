@@ -1366,3 +1366,12 @@ h4 {
 		background-size: cover;
 		color: #fff;
 }
+
+.banner-title {
+	top: 50%;
+	margin-top: -180px;
+	font-size: 14px;
+	color: rgba(255,255,255,0.7);
+	text-shadow: 1px 1px 3px #666666;
+	text-transform: uppercase;
+}
