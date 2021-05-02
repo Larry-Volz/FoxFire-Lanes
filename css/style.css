@@ -1375,3 +1375,50 @@ h4 {
 	text-shadow: 1px 1px 3px #666666;
 	text-transform: uppercase;
 }
+
+.banner-text {
+	color: #fff; 
+	text-shadow: 1px 1px 3px #666666;
+}
+
+.banners {
+	background-size: cover;
+  	color: #fff; padding: 5%;
+}
+
+#tournament-banner {
+ 	background: url('../images/1905x295_long_view.jpg') no-repeat center top;
+  
+}
+
+#contact-banner {
+	background: url('../images/1905x295_contact_cups.jpg') no-repeat center top;
+}
+
+#deal-banner {
+	background: url('../images/1905x295_multi-balls.jpg') no-repeat center top;
+}
+
+#events-banner {
+	background: url('../images/1905x295_yellow_ball.jpg') no-repeat center top;
+}
+
+#groups-banner {
+	background: url('../images/1905x295_feet.jpg') no-repeat center top;
+}
+
+#join-banner {
+	background: url('../images/1905x295_2_bowlers.jpg') no-repeat center top;
+}
+
+#standings-banner {
+	background: url('../images/1905x295_scoreboard2.jpg') no-repeat center top;
+}
+
+#parties-banner {
+	background: url('../images/1905x295_party_banner.jpg') no-repeat center top;
+}
+
+#prices-banner {
+	background: url('../images/1905x295_pennies.jpg') no-repeat center top;
+}
