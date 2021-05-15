@@ -204,6 +204,10 @@ header {
 }
 .navbar-header {
 }
+
+.main__header {
+	background-color: black !important;
+}
 .navbar-toggle {
 	margin-right: 0;
 }
@@ -230,7 +234,7 @@ header {
 	color: #262626;
 }
 .navbar-default .navbar-brand a span {
-	color: #262626;
+	color: white;
 }
 /*Main Navigaion Menu*/
 
@@ -283,7 +287,7 @@ ul.dropdown-menu {
 	-o-border-radius: 0px;
 	-ms-border-radius: 0px;
 	border: none;
-	background: #fcfbfc;
+	background: black;
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
@@ -309,7 +313,8 @@ ul.dropdown-menu li:first-child {
 	-o-border-radius: 2px 2px 0px 0px;
 }
 ul.dropdown-menu>li>a {
-	color: #aaaaaa;
+	
+	color: white;
 	border-top: none;
 	font-weight: bold;
 	font-size: 11px;
@@ -1421,4 +1426,15 @@ h4 {
 
 #prices-banner {
 	background: url('../images/1905x295_pennies.jpg') no-repeat center top;
+}
+
+.top-menu-text {
+	color: white !important;
+}
+
+.dropdown-toggle {
+	color: white !important;
+  }
+.dropdown-toggle:hover {
+	color: orangered !important;
 }
