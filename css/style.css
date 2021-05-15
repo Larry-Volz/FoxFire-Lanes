@@ -14,8 +14,8 @@ a, input, button {
 }
 body {
 	font-family: Calibri, sans-serif;
-	color: #a6a8a8;
-	font-size: 14px;
+	color: white;
+	font-size: 16px;
 }
 /*Typography*/
 
@@ -110,7 +110,7 @@ h2.with__margin2 {
 	margin: 50px 0;
 }
 p.small-paragraph {
-	font-size: 14px;
+	font-size: 16px;
 	color: #939393;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -186,7 +186,7 @@ button.btn-primary:focus, .btn-default:focus, .btn-info:focus {
 	padding: 0;
 }
 .btn-md {
-	font-size: 14px;
+	font-size: 16px;
 	width: 140px;
 	height: 45px;
 	line-height: 42px;
@@ -338,7 +338,7 @@ ul.dropdown-menu>li>a:hover {
 .carousel-caption {
 	top: 50%;
 	margin-top: -180px;
-	font-size: 14px;
+	font-size: 16px;
 	color: rgba(255,255,255,0.7);
 	text-shadow: 1px 1px 3px #666666;
 	text-transform: uppercase;
@@ -422,14 +422,14 @@ ul.dropdown-menu>li>a:hover {
 	padding: 75px 10% 75px 10%;
 }
 p.big-paragraph {
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: uppercase;
 	padding-top: 15px;
 	color: orangered;
 }
 .orange {
 	color: orangered;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: none;
 	padding: 0 0 10px 0;
 }
@@ -485,7 +485,7 @@ img.full-width {
 	position: relative;
 	margin-top: 5px;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 40px;
 	color: #5c5c5c;
 	font-weight: 800;
@@ -523,7 +523,7 @@ img.full-width {
 	padding: 0 40px;
 }
 .grey-info-block p.small-paragraph {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 800;
 	text-transform: uppercase;
 	position: relative;
@@ -581,7 +581,7 @@ img.full-width {
 	color: rgba(255,255,255,0.7);
 	text-transform: uppercase;
 	font-weight: 800;
-	font-size: 14px;
+	font-size: 16px;
 }
 .three__blocks p.smaller {
 	margin-top: -10px;
@@ -609,7 +609,7 @@ img.full-width {
 	padding: 0 40px;
 }
 .recent-posts p.small-paragraph {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 800;
 	text-transform: uppercase;
 	position: relative;
@@ -738,7 +738,7 @@ aside a.btn {
 
 footer {
 	background: #262626 url('../images/bg_pattern.png') repeat;
-	color: #808080;
+	color: white;
 }
 footer h3 {
 	padding-bottom: 20px;
@@ -792,7 +792,7 @@ footer button.btn-primary:focus {
 }
  @media(max-width:1310px) {
 .carousel-caption {
-	font-size: 14px;
+	font-size: 16px;
 	top: 55%;
 }
 .carousel-caption h1 {
@@ -1073,7 +1073,7 @@ header.with-boxed {
 	color: #f9f9f9;
 	font-weight: 400;
 	display: block;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: none;
 	line-height: 22px;
 }
@@ -1375,7 +1375,7 @@ h4 {
 .banner-title {
 	top: 50%;
 	margin-top: -180px;
-	font-size: 14px;
+	font-size: 16px;
 	color: rgba(255,255,255,0.7);
 	text-shadow: 1px 1px 3px #666666;
 	text-transform: uppercase;
