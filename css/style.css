@@ -406,10 +406,10 @@ ul.dropdown-menu>li>a:hover {
 }
 /*Container*/
 
-.main__middle__container .row ul, .main__middle__container .row ol {
+.main__middle__container white-pages .row ul, .main__middle__container white-pages .row ol {
 	padding-left: 20px;
 }
-.main__middle__container {
+.main__middle__container white-pages {
 	width: 100%;
 }
 .row {
@@ -810,7 +810,7 @@ footer button.btn-primary:focus {
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
 	font-size: 48px;
 }
-.main__middle__container h3.heading.white {
+.main__middle__container white-pages h3.heading.white {
 	background: none;
 }
 .carousel-caption {
@@ -1182,7 +1182,7 @@ h3 {
 	overflow: hidden;
 	max-width: 100%;
 }
-.main__middle__container {
+.main__middle__container white-pages {
 	overflow: hidden;
 	max-width: 100%;
 }
@@ -1232,10 +1232,13 @@ h4 {
 	float: left;
 	width: auto;
 }
-.main__middle__container {
+.main__middle__container white-pages {
 	overflow: hidden;
 	max-width: 100%;
 }
+
+
+
 #portfolio ul#Grid a.link {
 	font-size: 18px;
 }
@@ -1437,4 +1440,9 @@ h4 {
   }
 .dropdown-toggle:hover {
 	color: orangered !important;
+}
+
+
+.white-pages {
+	color: black !important;
 }

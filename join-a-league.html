@@ -18,6 +18,10 @@
     p, li {
       font-size: 2rem;
     }
+    
+  .white-pages {
+    color: black !important;
+  }
   </style>
 </head>
 <body>
@@ -72,7 +76,7 @@
     
    -->
 
-<section class="main__middle__container">
+<section class="main__middle__container ">
   <div id="join-banner" class="banners">
   
     <div class="container text-center" >
@@ -83,9 +87,9 @@
   <div class="container">
     <div class="row no-margin nothing no_padding">
       
-      <div class="col-md-8">
+      <div class="col-md-8 white-pages">
         <!-- <h3>Example body text</h3> -->
-        <p class="big-paragraph">Foxfire League bowlers get up to 45% discount on open bowling!</p>
+        <!-- <p class="big-paragraph white-pages">Foxfire League bowlers get up to 45% discount on open bowling!</p> -->
         <p>You can have fun in Foxfire Lanes bowling leagues!</p>
 
           <p>Foxfire League bowlers get up to 45% discount on open bowling!</p>
@@ -119,9 +123,9 @@
 
     </section>
     <div class="row no_padding">
-      <div  class="col-md-10">
+      <div  class="col-sm-8">
         <!-- <h3>Simple list</h3> -->
-        <ul>
+        <ul class = "white-pages">
           <li>Foxfire Bantam and Youth Leagues bowl Saturdays at 9:30am</li>
           <li>Make friends and bring your own!</li>
           <li>Handicapping to even out skill levels.</li>
@@ -139,16 +143,35 @@
           </li>
           <li>Discounts available for full season payment.
           </li>
-          <li>Call us at 704-932-0146 to register; or click here to register online  FYI: The season is 15 weeks, and is always on Saturdays. Prebowling is allowed for weeks a bowler can't attend.
+          <li>Call us at <a href="tel:704-932-0146">704-932-0146</a> to register; or click here to register online  FYI: The season is 15 weeks, and is always on Saturdays. Prebowling is allowed for weeks a bowler can't attend.
           </li>
           <li>Fees must be paid for weeks a bowler is absent too.
           </li>
           <li>Bowlers qualify for scholarship tournament entry.
           </li>
-          <li>In recent years, 3 of our bowlers won $1800, $450, and $400 respectively. The $1800 scholarship was awarded to a first year bowler.
-          </li>
         </ul>
+
       </div>
+
+        <div class="col-sm-4">
+          <div class="card bg-primary  text-center white-pages" style="width: 32rem; border-radius: 5%; background-color: #ffdd3c; padding: 10px;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+              <h5 class="card-title" style ="padding: 10px;">In Recent Years</h5>
+              <p class="card-text">3 of our bowlers won</p>
+            </div>
+            <ul class="list-group list-group-flush" >
+              <li class="list-group-item" style="background-color: #ffdd3c;">$1800</li>
+              <li class="list-group-item" style="background-color: #ffdd3c;">$450</li>
+              <li class="list-group-item" style="background-color: #ffdd3c;">$400</li>
+            </ul>
+            <div class="card-body">
+              <p class="card-text">The $1800 scholarship was awarded to a first year bowler!</p>
+            </div>
+          </div>
+        </div>
+
+        
 
 
     </div>
