@@ -7,6 +7,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="shortcodes/shortcodes.css">
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -17,6 +18,19 @@
   <style>
     p, li {
       font-size: 2rem;
+    }
+
+    th {
+      padding: 5px 5px !important;
+    }
+
+    h3 {
+      padding: 10px 5px !important;
+      margin: 10px 5px !important;
+    }
+
+    div.no-margin.nothing.no_padding {
+      padding:25px !important;
     }
   </style>
 </head>
@@ -76,78 +90,264 @@
       <br>
     </div>
   </div> 
+
   <div class="container">
     <div class="row no-margin nothing no_padding">
-
-      <div class="col-md-8">
-        <!-- <h3>Example body text</h3> -->
-        <p>You can have fun in Foxfire Lanes bowling leagues!</p>
-
-          <p>Foxfire League bowlers get up to 45% discount on open bowling!</p>
-          
-          <p>Click here for a pdf with details of our 2021 Summer Leagues <a href="https://static.s123-cdn-static.com/uploads/4897370/normal_6052a27726554.pdf">(SummerLG 2021.pdf)</a>, or click "online registration" to let us know you're interested in a League. Filling out this form doesn't commit you to a league or leagues. This is to determine which leagues we believe we can floor. Please fill out in full. We will use this information to alert you of league starts. Thank you.</p>
+      
+      <!-- <div class="col-md-8 white-pages"  id="blurb">
+        <h3>You can have fun in <br> Foxfire Lanes bowling leagues!</h3>
+        <br>
+          <h4>Foxfire League bowlers get up to 45% discount on open bowling!</h4>
           <br>
-        <button class = "btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSegtTv0K71xcs5JB5Ps_Yj4ZBQm4FQYNUYzDkZb5jyNUkU2mw/viewform?vc=0&c=0&w=1&flr=0&gxids=7628">Click here for online registration</button>
-      </div>
+          
+          <p><a href="https://static.s123-cdn-static.com/uploads/4897370/normal_6052a27726554.pdf">Click here</a> for a pdf with details of our 2021 Summer Leagues <a href="https://static.s123-cdn-static.com/uploads/4897370/normal_6052a27726554.pdf">(SummerLG 2021.pdf)</a>, or click "online registration" to let us know you're interested in a League. Filling out this form doesn't commit you to a league or leagues. This is to determine which leagues we believe we can floor. Please fill out in full. We will use this information to alert you of league starts. Thank you.</p>
+          <br>
+        <button class = "btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSegtTv0K71xcs5JB5Ps_Yj4ZBQm4FQYNUYzDkZb5jyNUkU2mw/viewform?vc=0&c=0&w=1&flr=0&gxids=7628">Register Now</button>
+      </div> -->
 
+    <table class="dc_table_s9" style="width:100%;">
+      <!-- <h1 class="text-center">Open Play Pricing</h1> -->
 
- 
+      <caption class = "display1">
+      
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Adults<br>18-59</th>
+          <th scope="col">Kids & Sr.<br>ages 1-17 & 60+</th>
+          <th scope="col">Foxfire League<br>Bowlers</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <!-- <th scope="row">Total</th>
+          <td colspan="7">4 buildings</td> -->
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr >
+          <tr>
+            <th scope="row"><br><h3>Sunday Specials</h3>
+              (Limited lanes 5:30-8:30 due to league)<br></th>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
 
+          <th scope="row">
+            1:00-6:00PM <br>
+            6:00-10:00PM
+          </th>
+          <td>$3.50 <br>$4.50</td>
+          <td>$3.50 <br>$4.50</td>
+          <td>$2.50 <br>$3.50</td>
+        </tr>
+        <tr class="odd">
+          <th scope="row"><h3>Monday</h3>
+          </th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="odd">
+          <th scope="row">
+            1:00-6:00PM <br>
+            6:00-11:00PM
+          </th>
+          <td>$4.25 <br>$4.50</td>
+          <td>$4.00<br>$4.50</td>
+          <td>$2.00<br>$2.00</td>
+        </tr>
+        <tr>
+          <th scope="row"><h3>Tuesday</h3>
+            </th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+          <th scope="row">
+            9:00-6:00PM <br>
+            6:00-11:00PM          
+          </th>
+          <td>$4.25 <br>$4.50</td>
+          <td>$4.00<br>$4.50</td>
+          <td>$2.00<br>$2.00</td>
+          
+        </tr>
+        
+        <tr class="odd">
+          <th scope="row"><h3>Wednesday</h3>
+          </th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="odd">
+          <th scope="row">
+            11:00-6:00PM <br>
+            6:00-11:00PM
+          </th>
+          <td>$3.00 <br>$4.50</td>
+          <td>$3.00<br>$4.50</td>
+          <td>$2.50<br>$2.50</td>
+        </tr>
+
+      <tr>
+        <th scope="row"><h3>Thursday</h3>
+        </th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">
+          1:00-6:00PM <br>
+          6:00-10:00PM          
+        </th>
+        <td>$4.25 <br>$4.50</td>
+        <td>$4.00<br>$4.50</td>
+        <td>$2.50<br>$2.50</td>
+      </tr>
+    
+    <tr class="odd">
+      <th scope="row"><h3>Friday</h3>
+      </th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="odd">
+      <th scope="row">
+        11:00-6:00PM <br>
+        6:00PM-12:00AM
+      </th>
+      <td>$3.50 <br>$5.00</td>
+      <td>$3.00<br>$5.00</td>
+      <td>$2.50<br>$3.50</td>
+    </tr>
+
+    <tr>
+      <th scope="row"><h3>Saturday</h3>
+      </th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">
+        11:00-6:00PM <br>
+        6:00PM-12:00AM          
+      </th>
+      <td>$4.25 <br>$5.00</td>
+      <td>$4.00<br>$5.00</td>
+      <td>$2.50<br>$3.50</td>
+    </tr>
+
+      </tbody>
+    </table>
+<!-- 
+      <div class="col-sm-4" id="yellow-card">
+        <div class="card bg-primary  text-center white-pages" style="width: 32rem; border-radius: 5%; background-color: #ffdd3c; padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style ="padding: 10px;">In Recent Years</h5>
+            <p class="card-text">3 of our bowlers won</p>
+          </div>
+          <ul class="list-group list-group-flush" >
+            <li class="list-group-item" style="background-color: #ffdd3c;">$1800</li>
+            <li class="list-group-item" style="background-color: #ffdd3c;">$450</li>
+            <li class="list-group-item" style="background-color: #ffdd3c;">$400</li>
+          </ul>
+          <div class="card-body">
+            <p class="card-text">The $1800 scholarship was awarded to a first year bowler!</p>
+          </div>
+        </div>
+      </div> -->
 
     <section id="miscellaneous">
- 
-
       
       <!-- Navs
         ================================================== -->
       
       <div class="row no_padding">
-
-        
-
-      
+      </div>
 
       
       <!-- Alerts & Messages
       ================================================== -->
       
+      
 
     </section>
-    <div class="row no_padding">
-      <div  class="col-md-10">
-        <h3>Simple list</h3>
-        <ul>
-          <li>Foxfire Bantam and Youth Leagues bowl Saturdays at 9:30am</li>
-          <li>Make friends and bring your own!</li>
-          <li>Handicapping to even out skill levels.</li>
-          <li>Certified and background checked coaches.</li>
-          <li>Optional weekly free practices on Tuesdays.</li>
-          <li>Free anytime shoe rental, and discounted games.</li>
-          <li>Discounts on bowling equipment.</li>
-          <li>Bantams and Bumper Bantams (age 5-8 singles) win trophies.</li>
-          <li>Youth (age 9-20 in 4 person teams) compete for trophies, and win scholarship money too! </li>
-          <li>Registration fee $20. Includes USBC Membership, Awards, Foxfire Shirt, and online standings.
+    <div class="row no_padding" id="bullet-list-details">
+      <div  class="col-sm-8">
+        <ul class = "white-pages">
+          <li>SHOE RENTAL IS $4 PER PAIR AT ALL TIMES, $2.50 For Foxfire League Bowlers. Free for Foxfire Youth League Bowlers.</li>
+          <li>Extra Frames $.45
           </li>
-          <li>Youth: $12 a week, bowl 3 games. Teams of 4
-          </li>
-          <li>Bantams: $9 a week, bowl 2 games as single players.
-          </li>
-          <li>Discounts available for full season payment.
-          </li>
-          <li>Call us at 704-932-0146 to register; or click here to register online  FYI: The season is 15 weeks, and is always on Saturdays. Prebowling is allowed for weeks a bowler can't attend.
-          </li>
-          <li>Fees must be paid for weeks a bowler is absent too.
-          </li>
-          <li>Bowlers qualify for scholarship tournament entry.
-          </li>
-          <li>In recent years, 3 of our bowlers won $1800, $450, and $400 respectively. The $1800 scholarship was awarded to a first year bowler.
-          </li>
+
+
+
+<li>
+  It is our intention to be open our posted hours, however; due to economic reasons we reserve the right to close as early as one hour before post if no bowlers are present.  We recommend that you call to check on business if you plan on arriving after that time.  We will also stay open later than our posted hours if business volume dictates.
+</li> 
+
+
+
+<li>NO OUTSIDE FREE GAME PASSES OR DISCOUNT CARDS MAY BE USED WHILE OTHER DISCOUNTS ARE OFFERED. THIS INCLUDES SUNDAY, WEDNESDAY, AND FRIDAY DISCOUNT DAYS. OUTSIDE IS DEFINED AS ANY DISCOUNT THAT IS NOT DISTRIBUTED DIRECTLY BY FOXFIRE EMPLOYEES. ALSO PLEASE NOTE THAT NO DISCOUNT PASSES OR CARDS MAY BE USED DURING THE MAX LIGHT AND SOUND SHOW SATURDAY NIGHTS (unless otherwise specified).</li>
+
+
+<li>MOST OF THE TIME THERE IS NO NEED FOR A WAITING LIST, BUT IT IS
+  ALWAYS A GOOD IDEA TO CALL AHEAD AND CHECK LANE AVAILABILITY. THERE IS NO WAITING LIST DURING THE MAX
+  FOXFIRE'S WAITING LIST POLICY
+</li>
+<li>Names may only be placed on our waiting list IN PERSON, ON THE
+  DAY OF BOWLING. No names will be taken over the phone.
+</li>
+<li>Lanes will be given in the order in which they are placed on the list. If a
+  name is called, and no response is received, we will go to the next name.
+</li>
+<li>If the absent party returns, and notifies the counter personnel, they will be called according to their original position on the list.
+</li>
+<li>If a group has more people than will fit on their assigned lane, or lanes
+  they will be called for available lanes until enough lanes are obtained.
+</li> 
+<li>Up to 10 people can be accommodated on one lane, but 6 is recommended. 
+</li>
+<li>
+  It is also recommended that groups of over 10 accept two separate lanes.
+</li>
+<li>If a lane becomes available beside either of your two lanes, you may ask
+  for a transfer to reunite your group. If you choose not to split up,
+  you may wait for lanes to be turned in together (the longest wait),
+  or take one lane and add the adjoining lane "if" it comes available.
+</li>
+<li>We would like to be able to tell you how long before you to get a lane, but we do not know. Unlike in a restaurant where people generally stay until they eat their fill, people can bowl until they drop. If we give you an estimate, understand it is based on averages, but times can fluctuate dramatically.
+
+</li>
+<li>
+  You should also understand that any posted closing time is the earliest we will close. We will stay open as long as we have enough business to permit.
+</li>
+<li>
+  EVERYONE WILL GET TO BOWL. On Friday & Saturday nights it is
+common for the center to stay open well past the scheduled closing time.
+</li>
+
+<li>
+  If you are someone that just doesn't like to wait, keep in mind that weekend evenings are our busiest times. You may avoid crowds and wait times by coming on other days, or earlier in the day. If you want a guaranteed lane, league bowling gives you just that. We have leagues for all ages, and skill levels. Get the details at our front desk.
+</li>
         </ul>
+
       </div>
+
+
+
+        
 
 
     </div>
   </div>
+
 </section>
 
 <footer>
