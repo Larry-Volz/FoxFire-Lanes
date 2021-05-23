@@ -1,0 +1,65 @@
+
+
+@startsalt
+{
+**Key**
+(M)= Menu item 
+(P)= On page
+..
+..
+**FoxFire Current (non-responsive) Site**
+{T#
+    +index.html |Home/menu screen
+    ++(P)php form |Now Hiring
+    ++(M)basic.htm |2nd home/menu screen |repetative
+    +++(M/P)BASIC_INFO.html |Random general info, Dan promo |linked both as "basic" & "about us"
+    ++++(P)DIRECTIONS.html |driving directions 
+    ++++ChampionsEdgeFoxFire/|Pro shop|facebook pg, no shop online (could do t-shirts, gloves, shoes, gift cards, food card for kids, punch cards)
+    ++++sbmenu.htm|snack bar menu |graphic, Not SEO opt., no menu, *Pls send text for update*
+    ++++first.htm|If you've never been bowling before|pop-ups can't be seen on phone
+    ++++Party page
+    ++++OPEN_PLAY.html|Open play and specials|No menu/formatting
+    ++++Like us on facebook
+    ++++Made improvements
+
+}
+..
+**FoxFire Recent Website**
+
+    {T#
+    + Home
+    + Leagues & Tournaments
+    ++Join a League 
+    ++League Standings 
+    ++Tournaments 
+    + Open Play Pricing |non-league/non-group
+    ++Pricing 
+    ++Bundles & Deals 
+    + Parties & Groups 
+    ++Parties 
+    ++Group Bowling 
+    ++Events & Lock-ins 
+    + Contact Us 
+
+    }
+    ..
+    **Volz Proposed Structure**
+
+    {T#
+    + Home
+    + Leagues & Tournaments
+    ++Join a League 
+    ++League Standings 
+    ++Tournaments 
+    + Open Play Pricing |non-league/non-group
+    ++Pricing 
+    ++Bundles & Deals 
+    + Parties & Groups 
+    ++Parties 
+    ++Group Bowling 
+    ++Events & Lock-ins 
+    + Contact Us 
+
+    }
+}
+@endsalt
