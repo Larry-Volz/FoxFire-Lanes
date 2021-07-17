@@ -920,10 +920,10 @@ header.with-boxed {
 	border-color: #222;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #222;
+	background-color: white;
 }
 .navbar-default .navbar-toggle:hover .icon-bar {
-	background-color: #fff;
+	background-color: #FF451A;
 }
 .navbar-default .navbar-nav>li a {
 	padding: 5px 0;

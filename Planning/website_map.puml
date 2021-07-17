@@ -10,17 +10,86 @@
 **FoxFire Current (non-responsive) Site**
 {T#
     +index.html |Home/menu screen
+
     ++(P)php form |Now Hiring
+
     ++(M)basic.htm |2nd home/menu screen |repetative
+
     +++(M/P)BASIC_INFO.html |Random general info, Dan promo |linked both as "basic" & "about us"
+
     ++++(P)DIRECTIONS.html |driving directions 
-    ++++ChampionsEdgeFoxFire/|Pro shop|facebook pg, no shop online (could do t-shirts, gloves, shoes, gift cards, food card for kids, punch cards)
+
     ++++sbmenu.htm|snack bar menu |graphic, Not SEO opt., no menu, *Pls send text for update*
+
     ++++first.htm|If you've never been bowling before|pop-ups can't be seen on phone
     ++++Party page
-    ++++OPEN_PLAY.html|Open play and specials|No menu/formatting
+    ++++OPEN_PLAY.html|Open play and specials|*SEO-UNREADABLE*, No menu/formatting
     ++++Like us on facebook
     ++++Made improvements
+
+    ++NEWS.html|News page
+    +++Kbook.htm|Karaoke song list 
+
+    ++New_Lg.html|(P/M)Leagues |*SEO-UNREADABLE*,unreturnable
+    +++bowlingleague.htm|Why Join a league|no return links 
+    +++SCORES.html|League standings 
+    +++SummerLG%202021.pdf|Print league form
+    +++php form|online registration form 
+    +++tournament.html|Tournament info|*SEO-UNREADABLE*
+    +++youth.html|youth league info|GREAT photo! 
+
+    ++PARTIES.html|Party info by size|*SEO-UNREADABLE*
+    +++(p)bundles.html|prices for variable bundles (yellow page) |from "4-9" link, "to book lanes" -> previous NOT booking pg  *SEO-UNREADABLE*
+
+    +++PARTIESdetails.html|from 9+ page|*SEO-UNREADABLE*
+    ++++partywirks weekday |deluxe weekday booking pg|(P) off-site/No rtn
+    ++++partywirks weekday night |deluxe weekday night booking pg|(P) off-site/No rtn
+    ++++partywirks weekend |deluxe weekend booking pg|(P) off-site/No rtn
+    ++++partywirks weekend night |deluxe weekend night booking pg| (P) off-site/No rtn
+    ++++partyworks delux|deluxe lightshow booking site|no descrip/NOT the pretty pg
+    ++++partywirks weekday |basic weekday booking pg|(P) off-site/No rtn
+    ++++partywirks weekday night |basic weekday night booking pg|(P) off-site/No rtn
+    ++++partywirks weekend |basic weekend booking pg|(P) off-site/No rtn
+    ++++partywirks weekend night |basic weekend night booking pg| (P) off-site/No rtn
+
+    +++groups.html|for Group bookings
+    ++++partywirks.com cal|book by date or check availability|calendar interface - off-site can't go back  
+    +++++partywirks lanes|num. of lanes|shows more than # available - should be dynamic
+    ++++++partywirks times available 
+    +++++++ partywirks credit cards etc. 
+
+    ++++ partywirks.com pg|All Group Party pkgs|off-site/No rtn.  Great pics.
+    +++++form-filling 
+    ++++++form-filling
+    +++++++form-filling 
+    
+    +++private.htm|A whole bunch|private party info, *SEO-UNREADABLE*
+
+    +++Lockin_tiket.html|congregation
+
+    +++corporate.htm|company parties|*SEO-UNREADABLE*
+
+    ++MAX.html|(P)Fri/Sat Light & Sound|1/3 *SEO-UNREADABLE*, no h1,2,3,no link to purchase/schedule, no rtn lnks 
+    
+    ++facebook.com/ChampionsEdgeFoxFire|Pro shop|facebook pg, no shop online (could do t-shirts, gloves, shoes, gift cards, food card for kids, punch cards)
+
+    ++espanol.html|Spanish page|translating the whole site=more inclusive
+
+    ++comment.htm|"Contact us"|misleading, actually invitation to comment (FB or blog better)
+
+    ++ACADEMIC.html|Free bowling for A's|pic used mult times, no SEO
+
+    ++homeschool.html|Homeschool Fridays|*SEO-UNREADABLE* little text/no H1,2,3
+
+    ++mobile.html|mobile version|*SEO-UNREADABLE*, no rtn/links, 
+    +++hours.html|hours|unformatted hours page, no SEO
+    +++OPEN_PLAY.html|"Prices"|open play pg again, only those prices,*SEO-UNREADABLE* little text/no H1,2,3
+    +++bundles.html|bundles pg again
+    +++map.html|"get there"|empty page where map should be, unformatted instructions
+    +++New_Lg.html|*SEO-UNREADABLE*
+    +++PARTIES.html|book party or group|*SEO-UNREADABLE*
+    +++MAX.html|lightshow pg|1/3 *SEO-UNREADABLE*, no h1,2,3
+
 
 }
 ..
@@ -35,7 +104,7 @@
     + Open Play Pricing |non-league/non-group
     ++Pricing 
     ++Bundles & Deals 
-    + Parties & Groups 
+    + Groups & Events 
     ++Parties 
     ++Group Bowling 
     ++Events & Lock-ins 
@@ -46,7 +115,8 @@
     **Volz Proposed Structure**
 
     {T#
-    + Home
+    +Home
+    +News|blogger site|1-click share to facebook/twitter
     + Leagues & Tournaments
     ++Join a League 
     ++League Standings 
@@ -54,7 +124,7 @@
     + Open Play Pricing |non-league/non-group
     ++Pricing 
     ++Bundles & Deals 
-    + Parties & Groups 
+    + Groups & Events 
     ++Parties 
     ++Group Bowling 
     ++Events & Lock-ins 
